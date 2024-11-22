@@ -1,0 +1,146 @@
+{
+  "name": "Mario Nageh",
+  "position": "Senior Backend Engineer",
+  "contactInformation": "+201208847854",
+  "email": "marionageh7@gmail.com",
+  "address": "Cairo, Egypt",
+  "socialMedia": [
+    {
+      "socialMedia": "Github",
+      "link": "https://github.com/MarioNageh",
+      "displayName": "github.com/MarioNageh"
+    },
+    {
+      "socialMedia": "LinkedIn",
+      "link": "https://www.linkedin.com/in/marionageh",
+      "displayName": "linkedin.com/in/marionageh"
+    }
+  ],
+  "summary": [
+    {
+      "text": "Senior Backend and Full-Stack Engineer with expertise in scalable, microservices-based architectures using Python, Django, FastAPI, and Apache Kafka. Experienced in real-time data processing, optimization, and system integration, with proficiency in GCP, Docker, and Kubernetes for cloud-native solutions.",
+      "isShownInPreview": true
+    },
+    {
+      "text": "Proven success in reducing AI resource usage by 40% and creating efficient data pipelines. Background includes impactful roles at Oanda and Femto FP&A, with strong skills in SQL/NoSQL, API development, and system integration.",
+      "isShownInPreview": true
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Master's Degree in Computer Science",
+      "school": "Cairo University",
+      "startYear": "2024-09-01",
+      "endYear": "Ongoing",
+      "notes": "Courses: Data Structures, Algorithms, Operating Systems",
+      "isShownInPreview": true
+    },
+    {
+      "degree": "Bachelor Degree in Engineering",
+      "school": "Helwan University",
+      "startYear": "2014-09-01",
+      "endYear": "2019-05-01",
+      "notes": "",
+      "isShownInPreview": true
+    }
+  ],
+  "courses": [
+    {
+      "name": "Backend Software Engineering Program",
+      "school": "Holberton School, Online",
+      "startYear": "2023-02-20",
+      "endYear": "2024-05-01",
+      "link": "https://intranet.alxswe.com/certificates/5hPfCxz2cL",
+      "notes": [
+        {
+          "text": "Technologies & Tools: Git/GitHub, Linux, Python, Test-Driven Development, SQL,TCP/IP, HTML, CSS, JSON, Unit Testing, SSH, SSL/TLS, HTTP/S, Webpack",
+          "isShownInPreview": true
+        },
+        {
+          "text": "Systems & Servers: Networking, Servers, Nginx, Gunicorn, Puppet, Load Balancers",
+          "isShownInPreview": true
+        },
+        {
+          "text": "Programming & Frameworks: JavaScript, jQuery, APIs, Flask, ES6, TypeScript, Node.js",
+          "isShownInPreview": true
+        },
+        {
+          "text": "Additional Skills: Integration testing, NoSQL, Redis",
+          "isShownInPreview": true
+        }
+      ],
+      "isShownInPreview": true
+    },
+    {
+      "name": "Apache Kafka",
+      "school": "Udmey",
+      "startYear": "2023-11-01",
+      "endYear": "2024-03-01",
+      "link": "https://www.udemy.com/certificate/UC-1d86da66-2e75-459a-8807-c9d6acf3d2fd",
+      "notes": [
+        {
+          "text": "Core Topics: Internal architecture, operational mechanics of Kafka brokers and consumers",
+          "isShownInPreview": true
+        },
+        {
+          "text": "Hands-on Skills: Message serialization, setting up and managing brokers, implementing Kafka in FastAPI and Flask applications",
+          "isShownInPreview": true
+        }
+      ],
+      "isShownInPreview": true
+    },
+    {
+      "name": "React",
+      "school": "Meta-Andela",
+      "startYear": "2023-05-01",
+      "endYear": "2023-10-18",
+      "link": "https://credsverse.com/credentials/72b0f304-b72c-4358-84ab-5e7c7594e707",
+      "notes": [
+        {
+          "text": "Core Skills: JSX, Components, Props, State, Lifecycle Methods, Event Handling",
+          "isShownInPreview": true
+        },
+        {
+          "text": "Conditional Rendering, Lists and Keys, React Router, Hooks, Context API",
+          "isShownInPreview": true
+        },
+        {
+          "text": "Additional Skills: CSS in React, Testing with Jest, API Integration",
+          "isShownInPreview": true
+        }
+      ],
+      "isShownInPreview": true
+    }
+  ],
+  "workExperience": [
+    {
+      "company": "Oanda",
+      "position": "Senior Backend Engineer",
+      "startYear": "2024-01-10",
+      "endYear": "Present",
+      "workType": "Remote",
+      "location": "USA",
+      "technologies": [
+        "Python", "Flask", "FastAPI", "Google Cloud Platform (GCP)", "JavaScript", "Terraform", "Kubernetes", "Redis", "Apache Kafka", "Helm Charts", "Splunk", "Grafana", "Docker", "Flyway", "Microservices"
+      ],
+      "achievements": [
+        {
+          "text": "Maintained and optimized legacy code for improved performance.",
+          "isShownInPreview": true
+        },
+        {
+          "text": "Migrated and upgraded outdated services to enhance system robustness.",
+          "isShownInPreview": true
+        },
+        {
+          "text": "Developed and implemented new backend services.",
+          "isShownInPreview": true
+        },
+        {
+          "text": "Enhanced service interactivity and user engagement by introducing caching. This optimization reduced the number of pods at peak usage from 53 to 12, reducing consumption by 77%, efficiently handling hundreds of thousands of requests.",
+          "isShownInPreview": true
+        }
+      ]
+    }
+  ]
+}
