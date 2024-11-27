@@ -14,9 +14,9 @@ class CVListView(generics.ListCreateAPIView):
     def get_queryset(self):
         user = self.request.user
         if user.is_staff:
-            return CV.objects.all()
+            return CV.objects.all().order_by('id')
         else:
-            return CV.objects.filter(user=user)
+            return CV.objects.filter(user=user).order_by('id')
 
     def perform_create(self, serializer):
         data = serializer.validated_data.get('data')
@@ -24,7 +24,7 @@ class CVListView(generics.ListCreateAPIView):
             serializer.validated_data['data'] = json.dumps(data)
         serializer.save(user=self.request.user)
 
-class CVDetailView(generics.RetrieveAPIView):
+class CVDetailView(generics.RetrieveUpdateAPIView):
     serializer_class = CVSerializer
     permission_classes = [IsAuthenticated]
 
